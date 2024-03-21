@@ -14,11 +14,8 @@ a {
 
 .visually-hidden {
   clip-path: inset(50%);
-  height: 1px;
   overflow: hidden;
-  position: absolute;
   white-space: nowrap;
-  width: 1px;
 }
 
 .title {
@@ -81,16 +78,17 @@ a {
   color: #404bbf;
 }
 
-.header-contacts {
+.address {
+  font-style: normal;
 }
 
-.header-contacts-list {
+.address-list {
 }
 
-.header-contacts-item {
+.address-item {
 }
 
-.header-contacts-link {
+.address-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -98,8 +96,8 @@ a {
   font-style: normal;
 }
 
-.header-contacts-link:hover,
-.header-contacts-link:focus {
+.address-link:hover,
+.address-link:focus {
   color: #404bbf;
 }
 
